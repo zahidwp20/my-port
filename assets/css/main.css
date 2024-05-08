@@ -16,7 +16,7 @@ CSS INDEX
 02. button
 03. page
 04. header
-05. parsonal info
+05. personal info
 06. client
 07. what do
 08. resume
@@ -2152,13 +2152,13 @@ only screen and (min-width: 768px) and (max-width: 991px) {
         padding-right: 30px;
     }
 }
-.zahid-page-area .zahid-parsonal-info-contact .title {
+.zahid-page-area .zahid-personal-info-contact .title {
     font-weight: 500;
 }
 .zahid-page-area .section-title {
     font-weight: 500;
 }
-.zahid-page-area .zahid-parsonal-info-title {
+.zahid-page-area .zahid-personal-info-title {
     font-weight: 500;
     margin-bottom: 11px;
 }
@@ -2171,14 +2171,14 @@ only screen and (min-width: 768px) and (max-width: 991px) {
         width: 40%;
     }
 }
-.zahid-page-area .zahid-parsonal-info-img {
+.zahid-page-area .zahid-personal-info-img {
     width: 100%;
     height: 400px;
     margin: 0;
     border-radius: 30px;
     margin-bottom: 80px;
 }
-.zahid-page-area .zahid-parsonal-info-contact {
+.zahid-page-area .zahid-personal-info-contact {
     background: transparent;
     padding: 20px 0px;
     margin-top: -13px;
@@ -2643,10 +2643,10 @@ only screen and (min-width: 1400px) and (max-width: 1599px) {
 /*
 ************
 *************************
-05. parsonal info
+05. personal info
 *******************************************************
 *************************************************************** */
-.zahid-parsonal-info-area {
+.zahid-personal-info-area {
     width: 400px;
     border-radius: 20px;
     background-color: var(--common-white);
@@ -2657,13 +2657,13 @@ only screen and (min-width: 1400px) and (max-width: 1599px) {
     top: 100px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
-    .zahid-parsonal-info-area {
+    .zahid-personal-info-area {
         width: 340px;
         margin-left: -40px;
     }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-    .zahid-parsonal-info-area {
+    .zahid-personal-info-area {
         width: 100%;
         margin-left: 0px;
         padding: 30px 15px;
@@ -2672,7 +2672,7 @@ only screen and (min-width: 1400px) and (max-width: 1599px) {
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px),
 only screen and (min-width: 768px) and (max-width: 991px) {
-    .zahid-parsonal-info-area {
+    .zahid-personal-info-area {
         width: 100%;
         margin-left: 0px;
         margin-bottom: 30px;
@@ -2680,7 +2680,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     }
 }
 @media (max-width: 767px) {
-    .zahid-parsonal-info-area {
+    .zahid-personal-info-area {
         width: 100%;
         margin-left: 0px;
         margin-bottom: 30px;
@@ -2688,11 +2688,11 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .zahid-parsonal-info-area {
+    .zahid-personal-info-area {
         padding: 40px 30px;
     }
 }
-.zahid-parsonal-info-img {
+.zahid-personal-info-img {
     width: 240px;
     height: 240px;
     border-radius: 20px;
@@ -2702,7 +2702,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     margin-top: -180px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-    .zahid-parsonal-info-img {
+    .zahid-personal-info-img {
         width: 210px;
         height: 210px;
         margin-top: 0px;
@@ -2711,16 +2711,16 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 @media only screen and (min-width: 992px) and (max-width: 1199px),
 only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
-    .zahid-parsonal-info-img {
+    .zahid-personal-info-img {
         margin-top: 0px;
     }
 }
-.zahid-parsonal-info-img img {
+.zahid-personal-info-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.zahid-parsonal-info-name {
+.zahid-personal-info-name {
     font-size: 26px;
     text-transform: capitalize;
     font-weight: 500;
@@ -2735,16 +2735,16 @@ only screen and (min-width: 768px) and (max-width: 991px),
     color: #fff;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-    .zahid-parsonal-info-name {
+    .zahid-personal-info-name {
         font-size: 20px;
     }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
-    .zahid-parsonal-info-name {
+    .zahid-personal-info-name {
         font-size: 22px;
     }
 }
-.zahid-parsonal-info-bio {
+.zahid-personal-info-bio {
     font-size: 14px;
     display: inline-block;
     font-weight: 500;
@@ -2758,15 +2758,15 @@ only screen and (min-width: 768px) and (max-width: 991px),
 @media only screen and (min-width: 1200px) and (max-width: 1399px),
 only screen and (min-width: 768px) and (max-width: 991px),
 (max-width: 767px) {
-    .zahid-parsonal-info-bio {
+    .zahid-personal-info-bio {
         font-size: 14px;
     }
 }
-.zahid-parsonal-info-social-link li {
+.zahid-personal-info-social-link li {
     display: inline-block;
     margin: 0 4px;
 }
-.zahid-parsonal-info-social-link li a {
+.zahid-personal-info-social-link li a {
     display: inline-block;
     width: 40px;
     height: 40px;
@@ -2776,70 +2776,70 @@ only screen and (min-width: 768px) and (max-width: 991px),
     line-height: 40px;
     font-size: 18px;
 }
-.zahid-parsonal-info-social-link .facebook {
+.zahid-personal-info-social-link .facebook {
     color: #1773ea;
 }
-.zahid-parsonal-info-social-link .facebook:hover {
+.zahid-personal-info-social-link .facebook:hover {
     background: #1773ea;
     color: #fff;
 }
-.zahid-parsonal-info-social-link .twitter {
+.zahid-personal-info-social-link .twitter {
     color: #1c9cea;
 }
-.zahid-parsonal-info-social-link .twitter:hover {
+.zahid-personal-info-social-link .twitter:hover {
     background: #1773ea;
     color: #fff;
 }
-.zahid-parsonal-info-social-link .instagram {
+.zahid-personal-info-social-link .instagram {
     color: #e12a72;
 }
-.zahid-parsonal-info-social-link .instagram:hover {
+.zahid-personal-info-social-link .instagram:hover {
     background: #e12a72;
     color: #fff;
 }
-.zahid-parsonal-info-social-link .linkedin {
+.zahid-personal-info-social-link .linkedin {
     color: #144679;
 }
-.zahid-parsonal-info-social-link .linkedin:hover {
+.zahid-personal-info-social-link .linkedin:hover {
     background: #144679;
     color: #fff;
 }
 
-.zahid-parsonal-info-social-link li a:hover svg * {
+.zahid-personal-info-social-link li a:hover svg * {
     fill: var(--common-white);
 }
-.zahid-parsonal-info-contact {
+.zahid-personal-info-contact {
     background-color: var(--light-white);
     border-radius: 16px;
     text-align: left;
     padding: 20px 30px;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-    .zahid-parsonal-info-contact {
+    .zahid-personal-info-contact {
         padding: 20px 15px;
     }
 }
 @media (max-width: 767px) {
-    .zahid-parsonal-info-contact {
+    .zahid-personal-info-contact {
         padding: 20px 15px;
     }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-    .zahid-parsonal-info-contact {
+    .zahid-personal-info-contact {
         padding: 20px 30px;
     }
 }
-.zahid-parsonal-info-contact-item {
+.zahid-personal-info-contact-item {
     display: flex;
     align-items: center;
     gap: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.zahid-parsonal-info-contact-item:not(:first-child) {
+.zahid-personal-info-contact-item:not(:first-child) {
     border-top: 1px solid #e3e3e3;
 }
-.zahid-parsonal-info-contact-item .icon {
+.zahid-personal-info-contact-item .icon {
     flex: 0 0 auto;
     display: inline-block;
     width: 44px;
@@ -2852,37 +2852,37 @@ only screen and (min-width: 768px) and (max-width: 991px),
     transition: 0.3s;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-    .zahid-parsonal-info-contact-item .icon {
+    .zahid-personal-info-contact-item .icon {
         width: 35px;
         height: 35px;
         line-height: 35px;
     }
 }
-.zahid-parsonal-info-contact-item .icon svg * {
+.zahid-personal-info-contact-item .icon svg * {
     transition: 0.3s;
 }
-.zahid-parsonal-info-contact-item i {
+.zahid-personal-info-contact-item i {
     font-size: 22px;
 }
-.zahid-parsonal-info-contact-item.phone i {
+.zahid-personal-info-contact-item.phone i {
     color: #e93b81;
 }
-.zahid-parsonal-info-contact-item.email i {
+.zahid-personal-info-contact-item.email i {
     color: #6ab5b9;
 }
-.zahid-parsonal-info-contact-item.location i {
+.zahid-personal-info-contact-item.location i {
     color: #fd7590;
 }
-.zahid-parsonal-info-contact-item.calendar i {
+.zahid-personal-info-contact-item.calendar i {
     color: #c17ceb;
 }
-.zahid-parsonal-info-contact-item .icon:hover svg * {
+.zahid-personal-info-contact-item .icon:hover svg * {
     fill: var(--common-white);
 }
-.zahid-parsonal-info-contact-item .text {
+.zahid-personal-info-contact-item .text {
     display: inline-block;
 }
-.zahid-parsonal-info-contact-item .text span {
+.zahid-personal-info-contact-item .text span {
     display: block;
     font-size: 12px;
     line-height: 18px;
@@ -2890,32 +2890,31 @@ only screen and (min-width: 768px) and (max-width: 991px),
     font-weight: 400;
     margin-bottom: 3px;
 }
-.zahid-parsonal-info-contact-item .text p {
+.zahid-personal-info-contact-item .text p {
     font-size: 16px;
     line-height: 24px;
     font-weight: 400;
     color: var(--common-black);
-    text-transform: capitalize;
     margin-bottom: 0;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-    .zahid-parsonal-info-contact-item .text p {
+    .zahid-personal-info-contact-item .text p {
         font-size: 14px;
     }
 }
 
-.zahid-parsonal-info-area.zahid-parsonal-info-2-area {
+.zahid-personal-info-area.zahid-personal-info-2-area {
     background-color: transparent;
     width: unset;
     margin-left: 0;
     position: unset;
 }
 @media (min-width: 1920px) {
-    .zahid-parsonal-info-area.zahid-parsonal-info-2-area {
+    .zahid-personal-info-area.zahid-personal-info-2-area {
         margin-top: 50px;
     }
 }
-.zahid-parsonal-info-area.zahid-parsonal-info-2-area .zahid-parsonal-info-img {
+.zahid-personal-info-area.zahid-personal-info-2-area .zahid-personal-info-img {
     width: 280px;
     height: 280px;
     border-radius: 50%;
@@ -2925,58 +2924,58 @@ only screen and (min-width: 768px) and (max-width: 991px),
     margin-top: 0;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
-    .zahid-parsonal-info-area.zahid-parsonal-info-2-area .zahid-parsonal-info-img {
+    .zahid-personal-info-area.zahid-personal-info-2-area .zahid-personal-info-img {
         width: 240px;
         height: 240px;
     }
 }
-.zahid-parsonal-info-area.zahid-parsonal-info-2-area .zahid-parsonal-info-bio {
+.zahid-personal-info-area.zahid-personal-info-2-area .zahid-personal-info-bio {
     background: transparent;
     color: #7b7b7b;
 }
-.zahid-parsonal-info-area.zahid-parsonal-info-2-area .zahid-parsonal-info-social-link li a:hover {
+.zahid-personal-info-area.zahid-personal-info-2-area .zahid-personal-info-social-link li a:hover {
     background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
 
-.zahid-parsonal-info-area.about-2-page {
+.zahid-personal-info-area.about-2-page {
     width: 100%;
     margin-left: 0;
     background: transparent;
     position: unset;
     padding: 0;
 }
-.zahid-parsonal-info-area.about-2-page .zahid-page-title-wrap {
+.zahid-personal-info-area.about-2-page .zahid-page-title-wrap {
     text-align: left;
 }
-.zahid-parsonal-info-area.about-2-page .zahid-parsonal-info-img {
+.zahid-personal-info-area.about-2-page .zahid-personal-info-img {
     width: 100%;
     height: 400px;
     margin-bottom: 0;
     margin-top: 0;
 }
 
-.page-wrapper-2 .zahid-parsonal-info-contact-item .icon:hover {
+.page-wrapper-2 .zahid-personal-info-contact-item .icon:hover {
     background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
 
-.home-3 .zahid-parsonal-info-area {
+.home-3 .zahid-personal-info-area {
     width: 100%;
     margin-left: 0;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .home-3 .zahid-parsonal-info-contact {
+    .home-3 .zahid-personal-info-contact {
         padding: 20px 10px;
     }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .home-3 .zahid-parsonal-info-contact-item .text p {
+    .home-3 .zahid-personal-info-contact-item .text p {
         font-size: 14px;
     }
 }
-.home-3 .zahid-parsonal-info-social-link li a:hover {
+.home-3 .zahid-personal-info-social-link li a:hover {
     background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
-.home-3 .zahid-parsonal-info-contact-item .icon:hover {
+.home-3 .zahid-personal-info-contact-item .icon:hover {
     background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
 
@@ -4608,15 +4607,15 @@ a:hover {
 }
 
 .dark-theme .page-wrapper .zahid-header-wrap,
-.dark-theme .page-wrapper .zahid-parsonal-info-area,
+.dark-theme .page-wrapper .zahid-personal-info-area,
 .dark-theme .page-wrapper .zahid-main-menu-wrap {
     background-color: #000;
 }
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar,
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav,
-.dark-theme .page-wrapper .zahid-parsonal-info-contact,
-.dark-theme .page-wrapper .zahid-parsonal-info-bio,
-.dark-theme .page-wrapper .zahid-parsonal-info-social-link li a,
+.dark-theme .page-wrapper .zahid-personal-info-contact,
+.dark-theme .page-wrapper .zahid-personal-info-bio,
+.dark-theme .page-wrapper .zahid-personal-info-social-link li a,
 .dark-theme .page-wrapper .main-style-2 .zahid-main-menu-wrap .bastami-main-menu ul li a {
     background-color: #1d1d1d;
 }
@@ -4650,7 +4649,7 @@ a:hover {
 .dark-theme .page-wrapper .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li a {
     background-color: transparent;
 }
-.dark-theme .page-wrapper .zahid-parsonal-info-social-link li a:hover {
+.dark-theme .page-wrapper .zahid-personal-info-social-link li a:hover {
     background-color: #1b74e4;
 }
 .dark-theme .page-wrapper .btn-1:hover {
@@ -4662,7 +4661,7 @@ a:hover {
 .dark-theme .page-wrapper .form-btn {
     color: #fff;
 }
-.dark-theme .page-wrapper .zahid-parsonal-info-bio,
+.dark-theme .page-wrapper .zahid-personal-info-bio,
 .dark-theme .page-wrapper .zahid-contact-item .text span {
     color: #a6a6a6;
 }
@@ -4712,13 +4711,13 @@ a:hover {
 .dark-theme .page-wrapper-2 .zahid-main-menu-wrap {
     background: transparent;
 }
-.dark-theme .page-wrapper-2 .zahid-parsonal-info-area.zahid-parsonal-info-2-area {
+.dark-theme .page-wrapper-2 .zahid-personal-info-area.zahid-personal-info-2-area {
     background: transparent;
 }
-.dark-theme .page-wrapper-2 .zahid-page-area .zahid-parsonal-info-contact {
+.dark-theme .page-wrapper-2 .zahid-page-area .zahid-personal-info-contact {
     background-color: transparent;
 }
-.dark-theme .page-wrapper-2 .zahid-parsonal-info-contact-item .icon:hover {
+.dark-theme .page-wrapper-2 .zahid-personal-info-contact-item .icon:hover {
     background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
 .dark-theme .home-3 .bastami-main-menu ul li:is(.active) a span svg * {
@@ -4730,7 +4729,7 @@ a:hover {
 .dark-theme .home-3 .zahid-header-wrap {
     background: transparent !important;
 }
-.dark-theme .home-3 .zahid-parsonal-info-social-link li a:hover {
+.dark-theme .home-3 .zahid-personal-info-social-link li a:hover {
     background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
 .dark-theme .home-3 .bastami-main-menu ul li:is(.active) {
@@ -4739,7 +4738,7 @@ a:hover {
 .dark-theme .home-3 .bastami-main-menu ul li:hover {
     background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
-.dark-theme .home-3 .zahid-parsonal-info-contact-item .icon:hover {
+.dark-theme .home-3 .zahid-personal-info-contact-item .icon:hover {
     background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
 .dark-theme .home-1 .zahid-header-wrap {
@@ -4795,13 +4794,13 @@ a:hover {
 }
 
 /*# sourceMappingURL=main.css.map */
-.dark-theme .zahid-parsonal-info-contact-item:not(:first-child) {
+.dark-theme .zahid-personal-info-contact-item:not(:first-child) {
     border-color: #333;
 }
 .dark-theme .contact-form .input-box {
     border-bottom-color: #333;
 }
-.dark-theme .zahid-parsonal-info-btn .btn-2 {
+.dark-theme .zahid-personal-info-btn .btn-2 {
     color: #fff;
 }
 
