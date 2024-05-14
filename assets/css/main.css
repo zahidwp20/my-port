@@ -47,7 +47,7 @@ CSS INDEX
     --heading-black: #0f172a;
     --light-white: #f3f6f6;
     --light-white-2: #f8fbfb;
-    --prink: #fff4f4;
+    --pink: #fff4f4;
     --catkrill: #eef5fa;
     --cyan: rgb(252, 244, 255);
     --rose: rgb(255, 240, 248);
@@ -64,7 +64,7 @@ CSS INDEX
     --heading-black: #0f172a;
     --light-white: #f3f6f6;
     --light-white-2: #f8fbfb;
-    --prink: #fff4f4;
+    --pink: #fff4f4;
     --catkrill: #eef5fa;
 }
 
@@ -1737,8 +1737,8 @@ textarea:focus::placeholder {
     background-color: var(--catkrill);
 }
 
-.bg-prink {
-    background-color: var(--prink);
+.bg-pink {
+    background-color: var(--pink);
 }
 
 .bg-light-white-2 {
@@ -3031,7 +3031,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 .zahid-what-do-item i {
     font-size: 35px;
 }
-.zahid-what-do-item.bg-prink i {
+.zahid-what-do-item.bg-pink i {
     color: #d566ff;
 }
 .zahid-what-do-item.bg-catkrill i {
@@ -3040,7 +3040,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 .zahid-what-do-item.bg-catkrill i {
     color: #ff6080;
 }
-.zahid-what-do-item.bg-prink.bg-blue i {
+.zahid-what-do-item.bg-pink.bg-blue i {
     color: #269fff;
 }
 @media (max-width: 767px) {
