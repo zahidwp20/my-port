@@ -2790,11 +2790,11 @@ only screen and (min-width: 768px) and (max-width: 991px),
     background: #1773ea;
     color: #fff;
 }
-.zahid-personal-info-social-link .instagram {
-    color: #e12a72;
+.zahid-personal-info-social-link .github {
+    color: #1f2328;
 }
-.zahid-personal-info-social-link .instagram:hover {
-    background: #e12a72;
+.zahid-personal-info-social-link .github:hover {
+    background: #1f2328;
     color: #fff;
 }
 .zahid-personal-info-social-link .linkedin {
