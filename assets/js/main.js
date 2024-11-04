@@ -81,7 +81,7 @@
     //  client slider start
     if (jQuery(".client_slide_active").length > 0) {
         let acooterbrand = new Swiper(".client_slide_active", {
-            slidesPerView: 4,
+            slidesPerView: 3,
             loop: true,
             rtl: false,
             infinite: true,
@@ -103,10 +103,7 @@
                     slidesPerView: 3,
                 },
                 992: {
-                    slidesPerView: 4,
-                },
-                1200: {
-                    slidesPerView: 5,
+                    slidesPerView: 3,
                 },
             },
         });
