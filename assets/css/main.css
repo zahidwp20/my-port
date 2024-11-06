@@ -2357,7 +2357,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
     transform: scaleY(1);
 }
 
-.bastami-main-menu ul li {
+.zahid-main-menu ul li {
     background-color: var(--light-white);
     border-radius: 12px;
     width: 84px;
@@ -2368,62 +2368,62 @@ only screen and (min-width: 768px) and (max-width: 991px),
     text-align: center;
     transition: 0.3s;
 }
-.bastami-main-menu ul li:not(:last-child) {
+.zahid-main-menu ul li:not(:last-child) {
     margin-bottom: 20px;
 }
-.bastami-main-menu ul li a {
+.zahid-main-menu ul li a {
     display: block;
     font-size: 13px;
     text-transform: capitalize;
     font-weight: 500;
     line-height: 1;
 }
-.bastami-main-menu ul li a i {
+.zahid-main-menu ul li a i {
     font-size: 24px;
 }
-.bastami-main-menu ul li a span {
+.zahid-main-menu ul li a span {
     display: block;
     margin-bottom: 8px;
 }
-.bastami-main-menu ul li:is(.active) {
+.zahid-main-menu ul li:is(.active) {
     background-color: var(--theme-primary);
 }
-.bastami-main-menu ul li:is(.active) a {
+.zahid-main-menu ul li:is(.active) a {
     color: var(--common-white);
 }
-.bastami-main-menu ul li:is(.active) a span svg * {
+.zahid-main-menu ul li:is(.active) a span svg * {
     fill: var(--common-white);
 }
-.bastami-main-menu ul li:is(.active) a span img {
+.zahid-main-menu ul li:is(.active) a span img {
     filter: brightness(5);
 }
-.bastami-main-menu ul li:hover {
+.zahid-main-menu ul li:hover {
     background-color: var(--theme-primary);
 }
-.bastami-main-menu ul li:hover a {
+.zahid-main-menu ul li:hover a {
     color: var(--common-white);
 }
-.bastami-main-menu ul li:hover a span svg * {
+.zahid-main-menu ul li:hover a span svg * {
     fill: var(--common-white);
 }
-.bastami-main-menu ul li:hover a span img {
+.zahid-main-menu ul li:hover a span img {
     filter: brightness(5);
 }
-.dark-theme .bastami-main-menu ul li a span img {
+.dark-theme .zahid-main-menu ul li a span img {
     filter: invert(0.8) !important;
 }
 
-.dark-theme .bastami-main-menu ul li.active a span img {
+.dark-theme .zahid-main-menu ul li.active a span img {
     filter: brightness(5) !important;
 }
 
-.bastami-main-menu ul li a span img {
+.zahid-main-menu ul li a span img {
     width: 20px;
 }
-.bastami-main-menu ul li.active:first-child a span img {
+.zahid-main-menu ul li.active:first-child a span img {
     filter: invert(1) !important;
 }
-.bastami-main-menu ul li:first-child:hover a span img {
+.zahid-main-menu ul li:first-child:hover a span img {
     filter: invert(1);
 }
 .header-right-flex {
@@ -2444,13 +2444,13 @@ only screen and (min-width: 768px) and (max-width: 991px),
     top: unset;
     display: inline-block;
 }
-.main-style-2 .zahid-main-menu-wrap .bastami-main-menu {
+.main-style-2 .zahid-main-menu-wrap .zahid-main-menu {
     display: inline-block;
 }
-.main-style-2 .zahid-main-menu-wrap .bastami-main-menu ul {
+.main-style-2 .zahid-main-menu-wrap .zahid-main-menu ul {
     display: inline-block;
 }
-.main-style-2 .zahid-main-menu-wrap .bastami-main-menu ul li {
+.main-style-2 .zahid-main-menu-wrap .zahid-main-menu ul li {
     display: inline-block;
     background-color: var(--light-white);
     border-radius: 8px;
@@ -2460,15 +2460,15 @@ only screen and (min-width: 768px) and (max-width: 991px),
     transition: 0.3s;
     margin-bottom: 0;
 }
-.main-style-2 .zahid-main-menu-wrap .bastami-main-menu ul li:not(:first-child) {
+.main-style-2 .zahid-main-menu-wrap .zahid-main-menu ul li:not(:first-child) {
     margin-left: 16px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .main-style-2 .zahid-main-menu-wrap .bastami-main-menu ul li:not(:first-child) {
+    .main-style-2 .zahid-main-menu-wrap .zahid-main-menu ul li:not(:first-child) {
         margin-left: 5px;
     }
 }
-.main-style-2 .zahid-main-menu-wrap .bastami-main-menu ul li a {
+.main-style-2 .zahid-main-menu-wrap .zahid-main-menu ul li a {
     background: #fff;
     border-radius: 8px;
     padding: 0px 19px;
@@ -2478,23 +2478,23 @@ only screen and (min-width: 768px) and (max-width: 991px),
     align-items: center;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .main-style-2 .zahid-main-menu-wrap .bastami-main-menu ul li a {
+    .main-style-2 .zahid-main-menu-wrap .zahid-main-menu ul li a {
         padding: 0px 10px;
     }
 }
-.main-style-2 .zahid-main-menu-wrap .bastami-main-menu ul li a:hover {
+.main-style-2 .zahid-main-menu-wrap .zahid-main-menu ul li a:hover {
     background: rgb(250, 82, 82);
     background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
-.main-style-2 .zahid-main-menu-wrap .bastami-main-menu ul li a span {
+.main-style-2 .zahid-main-menu-wrap .zahid-main-menu ul li a span {
     display: inline-block;
     margin-bottom: 0;
     margin-right: 8px;
 }
-.main-style-2 .zahid-main-menu-wrap .bastami-main-menu ul li a span i {
+.main-style-2 .zahid-main-menu-wrap .zahid-main-menu ul li a span i {
     font-size: 20px;
 }
-.main-style-2 .zahid-main-menu-wrap .bastami-main-menu ul li:is(.active) a {
+.main-style-2 .zahid-main-menu-wrap .zahid-main-menu ul li:is(.active) a {
     background: rgb(250, 82, 82);
     background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
@@ -2549,18 +2549,18 @@ only screen and (min-width: 768px) and (max-width: 991px),
         display: none;
     }
 }
-.home-3 .bastami-main-menu ul li {
+.home-3 .zahid-main-menu ul li {
     display: inline-flex;
     margin-bottom: 0;
 }
-.home-3 .bastami-main-menu ul li:not(:first-child) {
+.home-3 .zahid-main-menu ul li:not(:first-child) {
     margin-left: 16px;
 }
-.home-3 .bastami-main-menu ul li:hover,
-.home-3 .bastami-main-menu ul li:focus {
+.home-3 .zahid-main-menu ul li:hover,
+.home-3 .zahid-main-menu ul li:focus {
     background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
-.home-3 .bastami-main-menu ul li.active {
+.home-3 .zahid-main-menu ul li.active {
     background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
 
@@ -4616,8 +4616,11 @@ a:hover {
 .dark-theme .page-wrapper .zahid-personal-info-contact,
 .dark-theme .page-wrapper .zahid-personal-info-bio,
 .dark-theme .page-wrapper .zahid-personal-info-social-link li a,
-.dark-theme .page-wrapper .main-style-2 .zahid-main-menu-wrap .bastami-main-menu ul li a {
+.dark-theme .page-wrapper .main-style-2 .zahid-main-menu-wrap .zahid-main-menu ul li a {
     background-color: #1d1d1d;
+}
+.dark-theme .page-wrapper .zahid-personal-info-social-link li a.github {
+    color: #fff;
 }
 .dark-theme .page-wrapper .bg-light-white-2,
 .dark-theme .page-wrapper .blog-slider-single,
@@ -4627,20 +4630,20 @@ a:hover {
 .dark-theme .page-wrapper .knowledeges-item-wrap .gk-item {
     background-color: #1c1c1c;
 }
-.dark-theme .page-wrapper .bastami-main-menu ul li,
+.dark-theme .page-wrapper .zahid-main-menu ul li,
 .dark-theme .page-wrapper .zahid-contact-item {
     background-color: #212425;
 }
-.dark-theme .page-wrapper .bastami-main-menu ul li.active a {
+.dark-theme .page-wrapper .zahid-main-menu ul li.active a {
     color: #fff;
 }
-.dark-theme .page-wrapper .bastami-main-menu ul li.active {
+.dark-theme .page-wrapper .zahid-main-menu ul li.active {
     background-color: #1b74e4;
 }
-.dark-theme .page-wrapper .bastami-main-menu ul li:hover a {
+.dark-theme .page-wrapper .zahid-main-menu ul li:hover a {
     color: #fff;
 }
-.dark-theme .page-wrapper .bastami-main-menu ul li:hover {
+.dark-theme .page-wrapper .zahid-main-menu ul li:hover {
     background-color: #1b74e4;
 }
 .dark-theme .page-wrapper .zahid-what-do-item,
@@ -4695,14 +4698,14 @@ a:hover {
 .dark-theme .page-wrapper .fillter-item {
     border: 1px solid #212425;
 }
-.dark-theme .page-wrapper-2 .main-style-2 .zahid-main-menu-wrap .bastami-main-menu ul li a span img {
+.dark-theme .page-wrapper-2 .main-style-2 .zahid-main-menu-wrap .zahid-main-menu ul li a span img {
     filter: brightness(5);
 }
 
 .dark-theme .page-wrapper-2 .zahid-page-area .zahid-page-wrap {
     background: #111;
 }
-.dark-theme .page-wrapper-2 .main-style-2 .zahid-main-menu-wrap .bastami-main-menu ul li a span svg * {
+.dark-theme .page-wrapper-2 .main-style-2 .zahid-main-menu-wrap .zahid-main-menu ul li a span svg * {
     fill: white;
 }
 .dark-theme .page-wrapper-2 .zahid-header-wrap.main-style-2 {
@@ -4720,10 +4723,10 @@ a:hover {
 .dark-theme .page-wrapper-2 .zahid-personal-info-contact-item .icon:hover {
     background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
-.dark-theme .home-3 .bastami-main-menu ul li:is(.active) a span svg * {
+.dark-theme .home-3 .zahid-main-menu ul li:is(.active) a span svg * {
     fill: white;
 }
-.dark-theme .home-3 .bastami-main-menu ul li:hover a span svg * {
+.dark-theme .home-3 .zahid-main-menu ul li:hover a span svg * {
     fill: white;
 }
 .dark-theme .home-3 .zahid-header-wrap {
@@ -4732,10 +4735,10 @@ a:hover {
 .dark-theme .home-3 .zahid-personal-info-social-link li a:hover {
     background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
-.dark-theme .home-3 .bastami-main-menu ul li:is(.active) {
+.dark-theme .home-3 .zahid-main-menu ul li:is(.active) {
     background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
-.dark-theme .home-3 .bastami-main-menu ul li:hover {
+.dark-theme .home-3 .zahid-main-menu ul li:hover {
     background: linear-gradient(97deg, rgb(250, 82, 82) 0%, rgb(221, 36, 118) 100%);
 }
 .dark-theme .home-3 .zahid-personal-info-contact-item .icon:hover {
@@ -4744,14 +4747,14 @@ a:hover {
 .dark-theme .home-1 .zahid-header-wrap {
     background: transparent;
 }
-.dark-theme .home-1 .bastami-main-menu ul li.active a span svg * {
+.dark-theme .home-1 .zahid-main-menu ul li.active a span svg * {
     fill: white;
 }
-.dark-theme .home-1 .bastami-main-menu ul li a span svg *,
-.dark-theme .home-3 .bastami-main-menu ul li a span svg * {
+.dark-theme .home-1 .zahid-main-menu ul li a span svg *,
+.dark-theme .home-3 .zahid-main-menu ul li a span svg * {
     fill: #a6a6a6;
 }
-.dark-theme .home-1 .bastami-main-menu ul li:hover a span svg * {
+.dark-theme .home-1 .zahid-main-menu ul li:hover a span svg * {
     fill: white;
 }
 .dark-theme .home-1 .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li a:hover {
