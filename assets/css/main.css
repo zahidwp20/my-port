@@ -40,7 +40,7 @@ CSS INDEX
 :root {
     --common-white: #ffffff;
     --common-black: #000;
-    --theme-primary: #1b74e4;
+    --theme-primary:  #fa5252;
     --theme-secondary: #fa5252;
     --body-text: #44566c;
     --body-heading: #000;
@@ -57,7 +57,7 @@ CSS INDEX
 :root .dark-theme {
     --common-white: #000;
     --common-black: #fff;
-    --theme-primary: #1b74e4;
+    --theme-primary:  #fa5252;
     --theme-secondary: #fa5252;
     --body-text: #a6a6a6;
     --body-heading: #fff;
@@ -1899,7 +1899,7 @@ textarea:focus::placeholder {
     display: none;
 }
 .home-1 .dark-btn:hover {
-    background-color: #1b74e4;
+    background-color: var(--theme-primary);
     color: #fff;
 }
 .home-3 .dark-btn .fa-sun {
@@ -2255,7 +2255,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
     overflow: hidden;
 }
 .zahid-header-menu-btn .menu-btn:hover {
-    background: linear-gradient(180deg, #1b74e4 0%, #1b74e4 100%);
+    background: linear-gradient(180deg, #fa5252 0%, #fa5252 100%);
 }
 
 .menu-btn span {
@@ -2276,7 +2276,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .menu-btn.active {
-    background: linear-gradient(180deg, #1b74e4 0%, #1b74e4 100%);
+    background: linear-gradient(180deg, #fa5252 0%, #fa5252 100%);
 }
 
 .menu-btn.active span:nth-child(1) {
@@ -2619,13 +2619,13 @@ only screen and (min-width: 1400px) and (max-width: 1599px) {
     }
 }
 .home-1 .zahid-header-menu-btn .menu-btn {
-    background: #1b74e4;
+    background: #fa5252;
 }
 .home-1 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li:is(.active) a {
-    color: #1b74e4;
+    color: #fa5252;
 }
 .home-1 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li:hover a {
-    color: #1b74e4;
+    color: #fa5252;
 }
 .home-1 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li:hover a span img {
     filter: saturate(20.5);
@@ -2634,10 +2634,10 @@ only screen and (min-width: 1400px) and (max-width: 1599px) {
     filter: saturate(20.5);
 }
 .home-1 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li a:hover span svg * {
-    fill: #1b74e4;
+    fill: #fa5252;
 }
 .home-1 .mobile-menu-wrap .mobile-menu .mean-bar .mean-nav ul li:is(.active) a span svg * {
-    fill: #1b74e4;
+    fill: #fa5252;
 }
 
 /*
@@ -4654,13 +4654,13 @@ a:hover {
     color: #fff;
 }
 .dark-theme .page-wrapper .zahid-main-menu ul li.active {
-    background-color: #1b74e4;
+    background-color: var(--theme-primary);
 }
 .dark-theme .page-wrapper .zahid-main-menu ul li:hover a {
     color: #fff;
 }
 .dark-theme .page-wrapper .zahid-main-menu ul li:hover {
-    background-color: #1b74e4;
+    background-color: var(--theme-primary);
 }
 .dark-theme .page-wrapper .zahid-what-do-item,
 .dark-theme .page-wrapper .zahid-card-item,
@@ -4669,7 +4669,7 @@ a:hover {
     background-color: transparent;
 }
 .dark-theme .page-wrapper .zahid-personal-info-social-link li a:hover {
-    background-color: #1b74e4;
+    background-color: var(--theme-primary);
 }
 .dark-theme .page-wrapper .btn-1:hover {
     background-color: #1d1d1d;
@@ -4774,16 +4774,16 @@ a:hover {
     fill: white;
 }
 .dark-theme .home-1 .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li a:hover {
-    color: #1b74e4;
+    color: var(--theme-primary);
 }
 .dark-theme .home-1 .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li.active a {
-    color: #1b74e4;
+    color: var(--theme-primary);
 }
 .dark-theme .home-1 .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li.active a span svg * {
-    fill: #1b74e4;
+    fill: var(--theme-primary);
 }
 .dark-theme .home-1 .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li:hover a span svg * {
-    fill: #1b74e4;
+    fill: var(--theme-primary);
 }
 .dark-theme .home-1 .mobile-menu-wrap .mobile_menu .mean-bar .mean-nav ul li:hover a span img {
     filter: saturate(25);
