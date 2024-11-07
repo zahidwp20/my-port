@@ -2783,11 +2783,11 @@ only screen and (min-width: 768px) and (max-width: 991px),
     background: #1773ea;
     color: #fff;
 }
-.zahid-personal-info-social-link .twitter {
-    color: #1c9cea;
+.zahid-personal-info-social-link .whatsapp {
+    color: #25D366;
 }
-.zahid-personal-info-social-link .twitter:hover {
-    background: #1773ea;
+.zahid-personal-info-social-link .whatsapp:hover {
+    background: #25D366;
     color: #fff;
 }
 .zahid-personal-info-social-link .github {
