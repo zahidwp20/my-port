@@ -3279,6 +3279,7 @@ only screen and (min-width: 768px) and (max-width: 991px) {
     padding: 20px;
 }
 .fillter-item .img {
+    position: relative;
     border-radius: 12px;
     overflow: hidden;
     margin-bottom: 17px;
@@ -3287,6 +3288,21 @@ only screen and (min-width: 768px) and (max-width: 991px) {
 }
 .fillter-item:hover img {
     transform: scale(1.1);
+}
+
+.fillter-item .img span.project-link-icon {
+    position: absolute;
+    background: #000;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(0);
+}
+.fillter-item:hover .img span.project-link-icon {
+    transform: translate(-50%, -50%) scale(1);
 }
 .fillter-item .item-subtitle {
     display: block;
