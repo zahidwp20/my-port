@@ -4818,6 +4818,7 @@ a:hover {
 }
 .dark-theme .contact-form .input-box {
     border-bottom-color: #333;
+    color: var(--common-black);
 }
 .dark-theme .zahid-personal-info-btn .btn-2 {
     color: #fff;
