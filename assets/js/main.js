@@ -200,6 +200,17 @@
         });
     });
 
+    $(document).ready(function () {
+        new Typed("#typewriter", {
+          strings: ["Front End Developer", "WordPress Developer"], // Texts to type
+          typeSpeed: 100, 
+          backSpeed: 50,  
+          backDelay: 1000, 
+          loop: true, 
+        });
+      });
+      
+
     // WOW active
     new WOW().init();
 })(jQuery);
